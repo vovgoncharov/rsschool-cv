@@ -1,0 +1,354 @@
+@media screen and (max-width: 1350px) {
+    .main {
+        flex-direction: column;
+
+        .aside {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            .aside__title {
+                width: 90%;
+            }
+        }
+
+        .article {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .main {
+        flex-direction: column;
+
+        .aside {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            .aside__title {
+                width: 90%;
+            }
+
+
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .display {
+        display: block;
+    }
+
+    .header {
+        background-color: $dark-brown;
+
+        .header__wrap {
+            @extend .flex;
+
+            .header__img {
+                width: 25%;
+            }
+        }
+    }
+
+    .none {
+        display: none;
+    }
+
+    .aside {
+        flex-direction: column;
+        align-items: center;
+
+        .aside__contact,
+        .aside__hard-skills,
+        .aside__soft-skills,
+        .aside__lang,
+        .aside__active {
+            width: 30%;
+            position: relative;
+
+            .aside__arrow {
+                display: block;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url(../assets/img/down-arrow.svg);
+                background-repeat: no-repeat;
+                background-size: 20px 20px;
+                bottom: -10px;
+                left: 0px;
+                animation-name: anim;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                cursor: pointer;
+            }
+
+            .none {
+                transform: rotate(180deg);
+            }
+
+            .display {
+                display: block;
+            }
+        }
+
+    }
+
+    @keyframes anim {
+        0% {
+            bottom: -10px;
+        }
+
+        50% {
+            bottom: -20px;
+            opacity: 0.5;
+        }
+
+        100% {
+            bottom: -10px;
+        }
+    }
+
+    .aside__title {
+        width: 30%;
+    }
+
+    .aside__list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        .header__wrap {
+            .header__img {
+                width: 33%;
+            }
+
+            .header__content {
+                .header__title {
+                    font-size: 32px;
+                }
+
+                .header__text {
+                    font-size: 22px;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .code {
+        display: none;
+    }
+
+    .port {
+        .port__list {
+            .port__item {
+                width: 100%;
+
+                .port__link {
+                    .port__img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    .header {
+        .header__wrap {
+            .header__img {
+                width: 33%;
+            }
+
+            .header__content {
+                .header__title {
+                    font-size: 22px;
+                }
+
+                .header__text {
+                    font-size: 18px;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .cert,
+    .port,
+    .port,
+    .edu,
+    .exp,
+    .summary {
+        width: 120%;
+
+        &::before {
+            left: -30px;
+        }
+    }
+}
+
+@media screen and (max-width: 606px) {
+    .header {
+        .header__wrap {
+            .header__img {
+                width: 33%;
+            }
+
+            .header__content {
+                .header__title {
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                }
+
+                .header__text {
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                }
+            }
+
+        }
+    }
+
+    .aside {
+        margin: 0 auto;
+
+
+        .aside__title {
+            font-size: 14px;
+        }
+    }
+
+    .article {
+
+        .cert__title,
+        .port__title,
+        .port__title,
+        .edu__title,
+        .exp__title,
+        .summary__title {
+            font-size: 14px;
+        }
+    }
+
+    .footer {
+
+        .footer__block {
+
+            .footer__list {
+
+                .footer__item {
+                    margin-right: 20px;
+                    background-repeat: no-repeat;
+                    background-size: 50px 20px;
+                    background-position: center center;
+                    width: 50px;
+                    height: 20px;
+                    border-radius: 50%;
+                    animation-name: foot;
+                    animation-iteration-count: infinite;
+                    animation-duration: 2s;
+
+
+
+                    .footer__link {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 15px 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .header {
+        .header__wrap {
+            .header__img {
+                width: 36%;
+            }
+
+            .header__content {
+                .header__title {
+                    font-size: 14px;
+                    letter-spacing: 0px;
+                    margin: 30px 0 50px;
+                }
+
+                .header__text {
+                    font-size: 12px;
+                    letter-spacing: 0px;
+                }
+            }
+
+        }
+    }
+
+    .aside {
+        .aside__title {
+            font-size: 12px;
+        }
+    }
+
+    .article {
+
+        .article__title,
+        .cert__title,
+        .port__title,
+        .port__title,
+        .edu__title,
+        .exp__title,
+        .summary__title {
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header {
+        .header__wrap {
+            .header__img {
+                width: 36%;
+            }
+
+            .header__content {
+                .header__title {
+                    font-size: 12px;
+                    letter-spacing: 0px;
+                    margin: 0;
+                }
+
+                .header__text {
+                    font-size: 10px;
+                    letter-spacing: 0px;
+                }
+            }
+
+        }
+    }
+
+    .aside {
+        .aside__title {
+            font-size: 10px;
+        }
+    }
+}

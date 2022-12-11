@@ -1,378 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>CV</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-block">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        ><link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+            rel="stylesheet"
+        >
+        <link rel="stylesheet" href="style/style.css">
+        <title>Honcharov CV</title>
+    </head>
+    <body>
+        <header class="header">
+            <section class="header__wrap">
                 <img
-                    src="img/51455879.jpeg"
+                    src="assets/img/51455879.jpeg"
                     alt="photo"
-                    class="header__photo"
+                    class="header__img"
                 >
-                <div class="header-text">
-                    <div class="header__title">
-                        Volodymyr<br>Honcharov
-                    </div>
-                    <p class="header__discription">
-                        Junior Frontend Developer
-                    </p>
+                <div class="header__content">
+                    <h1 class="header__title">Volodymyr Honcharov</h1>
+                    <p class="header__text">Frontend Developer</p>
                 </div>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <section id="details">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">Details</h2>
-                    <a href="#" class="details__gmail gmail-pro"
-                        >deykdog@gmail.com</a
+            </section>
+        </header>
+        <main class="main">
+            <aside class="aside">
+                <section class="aside__contact">
+                    <h2 class="aside__title">Contact</h2>
+                    <div class="aside__arrow"></div>
+                    <ul class="aside__list">
+                        <li class="aside__item phone">+380686691755</li>
+                        <li class="aside__item email">deykdog@gmail.com</li>
+                        <li class="aside__item location">Kyiv</li>
+                        <li class="aside__item link"
+                            ><a
+                                href="https://www.linkedin.com/in/volodymyr-honcharov-69098615b/"
+                                target="_blank"
+                                class="aside__link"
+                                >linkedin</a
+                            ></li
+                        >
+                    </ul>
+                </section>
+                <section class="aside__hard-skills">
+                    <h2 class="aside__title">Hard Skills</h2>
+                    <div class="aside__arrow"></div>
+                    <ul class="aside__list">
+                        <li class="aside__item">HTML5</li>
+                        <li class="aside__item">CSS (flexbox, SCSS)</li>
+                        <li class="aside__item">JavaScript ES6(React)</li>
+                        <li class="aside__item">Git</li>
+                        <li class="aside__item">Figma</li>
+                    </ul>
+                </section>
+                <section class="aside__soft-skills">
+                    <h2 class="aside__title">Soft Skills</h2>
+                    <div class="aside__arrow"></div>
+                    <ul class="aside__list">
+                        <li class="aside__item">Teamwork</li>
+                        <li class="aside__item">Time Management</li>
+                        <li class="aside__item"
+                            >Verbal & Written communication</li
+                        >
+                        <li class="aside__item">Fast Learner</li>
+                    </ul>
+                </section>
+                <section class="aside__lang">
+                    <h2 class="aside__title">Language</h2>
+                    <div class="aside__arrow"></div>
+                    <ul class="aside__list">
+                        <li class="aside__item">English - Intermediate</li>
+                        <li class="aside__item">Ukrainian - Native</li>
+                    </ul>
+                </section>
+                <section class="aside__active">
+                    <h2 class="aside__title">Interests</h2>
+                    <div class="aside__arrow"></div>
+                    <ul class="aside__list">
+                        <li class="aside__item">Computer games</li>
+                        <li class="aside__item">Chess</li>
+                        <li class="aside__item">Reading</li>
+                        <li class="aside__item">Travelling</li>
+                    </ul>
+                </section>
+            </aside>
+            <article class="article">
+                <h2 class="article__title">About me</h2>
+                <section class="summary">
+                    <h2 class="summary__title">Summary</h2>
+                    <p class="summary__text"
+                        >I create semantic, responsive and dynamic sites using
+                        the Figma graphic editor and technologies such as HTML,
+                        CSS (Flexbox, Grid CSS) and JS(ES6, DOM). I also work
+                        with SCSS preprocessor and BEM methodology. In the
+                        development process I use GitHub to store my projects. I
+                        have knowledge of the React library and I have already
+                        created several SPA applications.</p
                     >
-                    <p class="own-block__text phone">0686691755</p>
-                </div>
-            </div>
-        </section>
-        <section id="profile">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">Profile</h2>
-                    <p class="own-block__text">
-                        My name is Volodymyr Honcharov.I am 32. I am
-                        actively searching for the position of JavaScript
-                        developer(React).<br>
-                        I deal with such technologies as:<br>
-                        - HTML5<br>
-                        - CSS (flexbox, SCSS)<br>
-                        - JavaScript ES6(React)<br>
-                        - Git<br>
-                        - Photoshop<br>
-                        - Figma
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="links">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">links</h2>
-                    <ul class="social">
-                        <li class="item">
-                            <a
-                                href="https://www.linkedin.com/in/volodymyr-honcharov-69098615b/?locale=en_US"
-                                target="_blank"
-                                class="own-block__link gmail-pro"
-                                >Linkedin</a
+                </section>
+                <section class="exp">
+                    <h2 class="exp__title">Experience</h2>
+                    <div class="exp__text-block">
+                        <strong class="exp__text">Freelance</strong>
+                        <p class="exp__text">Frontend developer</p>
+                        <ul class="exp__list">
+                            <li class="exp__item"
+                                >Work experience in a team with a designer,
+                                backend and frontend developers in creating a
+                                SPA. The project involved the use of such
+                                technologies as HTML, CSS, JavaScript, React,
+                                Next.js, CSS, Node.js, NPM modular packages,
+                                Figma graphic editor.</li
                             >
-                        </li>
-                        <li class="item">
-                            <a
-                                href="https://www.instagram.com/vova__honcharov/"
-                                target="_blank"
-                                class="own-block__link gmail-pro"
-                                >Instagram</a
+                        </ul>
+                    </div>
+                </section>
+                <section class="edu">
+                    <h2 class="edu__title">Education</h2>
+                    <div class="edu__text-block">
+                        <strong class="edu__text">Bachelor`s degree</strong>
+                        <p class="edu__text"
+                            >Donbass State Pedagogical University (2014 -
+                            2018)</p
+                        >
+                        <ul class="edu__list">
+                            <li class="edu__item">Physical education</li>
+                        </ul>
+                    </div>
+                    <div class="edu__text-block">
+                        <strong class="edu__text">Junior Specialist</strong>
+                        <p class="edu__text"
+                            >Bakhmut Industrial College (2006 - 2010)</p
+                        >
+                        <ul class="edu__list">
+                            <li class="edu__item"
+                                >Installation and operation of electrical
+                                equipment of enterprises and civil
+                                structures</li
                             >
-                        </li>
-                        <li class="item">
-                            <a
-                                href="https://www.facebook.com/volodymyr.honcharov/"
+                        </ul>
+                    </div>
+                </section>
+                <section class="cert">
+                    <h2 class="cert__title">Certifications</h2>
+                    <ul class="edu__list">
+                        <li class="edu__item"
+                            >Completion of English Language Dynamics Course
+                            (Michael Gott International)</li
+                        >
+                        <li class="edu__item"
+                            >Basics of Web UI development 2020 (Lviv IT
+                            School)</li
+                        >
+                        <li class="edu__item">CSS course (Sololearn)</li>
+                        <li class="edu__item"
+                            >JavaScript course (by Google Developer Expert Jad
+                            Joubran)</li
+                        >
+                        <li class="edu__item"
+                            >React+Redux (by Google Developer Expert Jad
+                            Joubran)</li
+                        >
+                    </ul>
+                </section>
+                <section class="code">
+                    <h2 class="code__title">Example code</h2>
+                    <pre class="code__pre">
+                        <code class="code__example">
+const play = document.querySelector(".play-btn");
+const pause = document.querySelector(".pause-btn");
+const birds = document.querySelectorAll(".link");
+const section = document.querySelector(".section");
+const audio = new Audio();
+                            
+birds.forEach((bird) =>
+    bird.addEventListener("click", (e) => {
+        let birdSong = e.currentTarget.dataset;
+        audio.src = `assets/audio/${birdSong.bird}.mp3`;
+        section.style.background = `url(assets/img/${birdSong.bird}.jpg)`;
+        audio.currentTime = 0;
+        audio.play();
+        getPause();
+    }),
+);
+                            
+const playSong = () => {
+    audio.src = "assets/audio/forest.mp3";
+    audio.currentTime = 0;
+    audio.play();
+};
+const pauseSong = () => {
+    audio.pause();
+};
+                            
+const getPause = () => {
+    document.querySelector(".wrap-button").classList.remove("squer");
+    document.querySelectorAll(".span-btn").forEach((element) => {
+        element.classList.add("pause");
+    });
+};
+                            
+const getPlay = () => {
+    document.querySelector(".wrap-button").classList.add("squer");
+    document.querySelectorAll(".span-btn").forEach((element) => {
+        element.classList.remove("pause");
+    });
+};
+                            
+play.addEventListener("click", playSong);
+pause.addEventListener("click", pauseSong);
+                            
+play.addEventListener("click", getPause);
+pause.addEventListener("click", getPlay);
+                        </code>
+                    </pre>
+                </section>
+                <section class="port">
+                    <h2 class="port__title">Portfolio</h2>
+                    <ul class="port__list">
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/API-GitHub/"
+                                class="port__link"
                                 target="_blank"
-                                class="own-block__link gmail-pro"
-                                >Facebook</a
-                            >
-                        </li>
-                        <li class="item">
+                                ><img
+                                    src="assets/img/portfolio1.png"
+                                    alt=""
+                                    class="port__img"
+                                >
+                            </a>
+                            In this project, I have built a page that uses the
+                            GitHub API to list the repositories of a GitHub
+                            user.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/portfolio/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/portfolio2.png"
+                                    alt=""
+                                    class="port__img"></a
+                            >This portfolio was developed for a
+                            photographer.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/sounds/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/Portfolio3.png"
+                                    alt=""
+                                    class="port__img"
+                                > </a
+                            >In this project, I have built a page that uses the
+                            audio player.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/monaco-react/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/Portfolio4.png"
+                                    alt=""
+                                    class="port__img"></a
+                            >This project was developed for a beauty salon.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/conversion/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/Portfolio10.png"
+                                    alt=""
+                                    class="port__img"
+                                > </a
+                            >In this project, I have built a page that uses the
+                            Currency API for currency exchange.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/gitar/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/Portfolio7.png"
+                                    alt="photo"
+                                    class="port__img"
+                                > </a
+                            >In this project, I have built a page that uses the
+                            keyup event listener.</li
+                        >
+                        <li class="port__item"
+                            ><a
+                                href="https://vovgoncharov.github.io/shelters/"
+                                class="port__link"
+                                target="_blank"
+                                ><img
+                                    src="assets/img/Portfolio9.png"
+                                    alt="photo"
+                                    class="port__img"
+                                > </a
+                            >This project was developed for animal shelter.</li
+                        >
+                    </ul>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <div class="footer__block">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item">
                             <a
                                 href="https://github.com/vovgoncharov"
                                 target="_blank"
-                                class="own-block__link gmail-pro"
-                                >GitHub</a
-                            >
+                                class="footer__link"
+                            ></a>
                         </li>
-                        <li class="item">
+                        <li class="footer__item">
                             <a
-                                href="https://www.codewars.com/users/vovgoncharov"
+                                href="https://rs.school/js/"
                                 target="_blank"
-                                class="own-block__link gmail-pro"
-                                >Codewars</a
-                            >
+                                class="footer__link"
+                            ></a>
                         </li>
                     </ul>
-                </div>
+                </nav>
+
+                <p class="footer__text">2022</p>
             </div>
-        </section>
-        <section id="employment-history">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">Employment history</h2>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Security Service, Smerch Private Security LLC,
-                            Kyiv
-                        </p>
-                        <p class="own-block__time-work">
-                            April 2019 — present
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Fitness Trainer, SportLife, Kyiv
-                        </p>
-                        <p class="own-block__time-work">
-                            September 2017 - April 2019
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Security Service, TSUM Kyiv Department Store,
-                            Kyiv
-                        </p>
-                        <p class="own-block__time-work">
-                            November 2016 - September 2017
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Police Officer, Ministry of Internal Affairs of
-                            Ukraine, Bakhmut
-                        </p>
-                        <p class="own-block__time-work">
-                            March 2012 - May 2015
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="education">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">Education</h2>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Bachelor's degree, Donbass State Pedagogical
-                            University, Sloviansk
-                        </p>
-                        <p class="own-block__time-work">
-                            September 2014 - June 2018
-                        </p>
-                        <p class="own-block__facult">Physical education</p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Specialist Degree, Mariupol School of
-                            Professional Training for Police, Mariupol
-                        </p>
-                        <p class="own-block__time-work">
-                            March 2012 - September 2012
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Junior Specialist, Bakhmut Industrial College,
-                            Bakhmut
-                        </p>
-                        <p class="own-block__time-work">
-                            September 2006 - July 2010
-                        </p>
-                        <p class="own-block__facult">
-                            Installation and operation of electrical
-                            equipment of enterprises and civil structures
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="skills">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">Skills</h2>
-                    <div class="progress">
-                        <div class="progress-bar">
-                            <div class="bar-block">
-                                <p class="fast-text">Fast Learner</p>
-                                <div class="fast theme-pro"></div>
-                            </div>
-                            <div class="bar-block">
-                                <p class="fast-text">
-                                    Effective Time Management
-                                </p>
-                                <div class="time theme-pro"></div>
-                            </div>
-                            <div class="bar-block">
-                                <p class="fast-text">Adaptability</p>
-                                <div class="adapt theme-pro"></div>
-                            </div>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="bar-block">
-                                <p class="fast-text">
-                                    Ability to Work in a Team
-                                </p>
-                                <div class="team theme-pro"></div>
-                            </div>
-                            <div class="bar-block">
-                                <p class="fast-text">
-                                    Communication Skills
-                                </p>
-                                <div class="com theme-pro"></div>
-                            </div>
-                            <div class="bar-block">
-                                <p class="fast-text">Computer Skills</p>
-                                <div class="comp theme-pro"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="languages">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">languages</h2>
-                    <div class="progress-bar">
-                        <div class="bar-block">
-                            <p class="fast-text">Ukrainian</p>
-                            <div class="ua theme-pro"></div>
-                        </div>
-                        <div class="bar-block">
-                            <p class="fast-text">English</p>
-                            <div class="en theme-pro"></div>
-                        </div>
-                        <div class="bar-block">
-                            <p class="fast-text">Russian</p>
-                            <div class="ru theme-pro"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="courses">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">courses</h2>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Completion of English Language Dynamics Course,
-                            Michael Gott International
-                        </p>
-                        <p class="own-block__time-work">
-                            F E B R U A R Y 2 0 1 8 — F E B R U A R Y 2 0 1
-                            8
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Personal Trainer, Gym Instructor, Star Fitness
-                        </p>
-                        <p class="own-block__time-work">
-                            J U N E 2 0 1 7 — J U L Y 2 0 1 7
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Gym Instructor, Sport Life
-                        </p>
-                        <p class="own-block__time-work">
-                            O C T O B E R 2 0 1 8 — N OV E M B E R 2 0 1 8
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">
-                            Basics of Web UI development 2020, Lviv IT
-                            School
-                        </p>
-                        <p class="own-block__time-work">
-                            J U L Y 2 0 2 1 — A U G U S T 2 0 2 1
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">CSS course, Sololearn</p>
-                        <p class="own-block__time-work">
-                            A U G U S T 2 0 2 1 — A U G U S T 2 0 2 1
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">JavaScript cource</p>
-                        <p class="own-block__time-work">
-                            S E P T E M B E R 2 0 2 1 — S E P T E M B E R 2
-                            0 2 1
-                        </p>
-                    </div>
-                    <div class="time-work">
-                        <p class="own-block__text">React + Redux</p>
-                        <p class="own-block__time-work">
-                            S E P T E M B E R 2 0 2 1 — O K T O B E R 2 0 2
-                            1
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="hobbies">
-            <div class="container">
-                <div class="details-block own-block">
-                    <h2 class="title">hobbies</h2>
-                    <p class="own-block__text">
-                        English, Reading, Chess, Workout, Running, Football.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="foot-block">
-                <ul class="social social-foot">
-                    <li class="item">
-                        <a
-                            href="https://www.linkedin.com/in/volodymyr-honcharov-69098615b/?locale=en_US"
-                            target="_blank"
-                            class="own-block__link"
-                            >Linkedin</a
-                        >
-                    </li>
-                    <li class="item">
-                        <a
-                            href="https://www.instagram.com/vova__honcharov/"
-                            target="_blank"
-                            class="own-block__link"
-                            >Instagram</a
-                        >
-                    </li>
-                    <li class="item">
-                        <a
-                            href="https://www.facebook.com/volodymyr.honcharov/"
-                            target="_blank"
-                            class="own-block__link"
-                            >Facebook</a
-                        >
-                    </li>
-                    <li class="item">
-                        <a
-                            href="https://github.com/vovgoncharov"
-                            target="_blank"
-                            class="own-block__link"
-                            >GitHub</a
-                        >
-                    </li>
-                    <li class="item">
-                        <a
-                            href="https://www.codewars.com/users/vovgoncharov"
-                            target="_blank"
-                            class="own-block__link"
-                            >Codewars</a
-                        >
-                    </li>
-                </ul>
-                <p class="year">2021</p>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+        <script async src="js/script.js"></script>
+    </body>
 </html>
